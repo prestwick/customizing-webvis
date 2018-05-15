@@ -4,7 +4,6 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">385908736</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Item Name="publish-battery-under-test.vi" Type="VI" URL="../publish-battery-under-test.vi"/>
 	<Item Name="Simulate Temperature.vi" Type="VI" URL="../Simulate Temperature.vi"/>
-	<Item Name="SubscribeToMessages.vi" Type="VI" URL="../SubscribeToMessages.vi"/>
-	<Item Name="WriteTags.vi" Type="VI" URL="../WriteTags.vi"/>
 </Library>

@@ -44,12 +44,6 @@
 				<Item Name="NI Skyline Configuration.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Skyline/Configuration/Configuration_class/NI Skyline Configuration.lvclass"/>
 				<Item Name="NI Skyline Configuration.lvlib" Type="Library" URL="/&lt;vilib&gt;/Skyline/Configuration/HTTP/NI Skyline Configuration.lvlib"/>
 				<Item Name="NI Skyline JSON.lvlib" Type="Library" URL="/&lt;vilib&gt;/Skyline/JSON/NI Skyline JSON.lvlib"/>
-				<Item Name="NI Skyline Message AMQP (Async).lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Skyline/Message/AMQP/NI Skyline Message AMQP (Async).lvclass"/>
-				<Item Name="NI Skyline Message AMQP (Sync).lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Skyline/Message/AMQP/NI Skyline Message AMQP (Sync).lvclass"/>
-				<Item Name="NI Skyline Message HTTP.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Skyline/Message/HTTP Wrapper/NI Skyline Message HTTP.lvclass"/>
-				<Item Name="NI Skyline Message HTTP.lvlib" Type="Library" URL="/&lt;vilib&gt;/Skyline/Message/HTTP/NI Skyline Message HTTP.lvlib"/>
-				<Item Name="NI Skyline Message Sync.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Skyline/Message/sync/NI Skyline Message Sync.lvclass"/>
-				<Item Name="NI Skyline Message.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Skyline/Message/NI Skyline Message.lvclass"/>
 				<Item Name="NI Skyline Tag AMQP.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Skyline/Tag/Wrapper/Wrapper AMQP_class/NI Skyline Tag AMQP.lvclass"/>
 				<Item Name="NI Skyline Tag HTTP.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Skyline/Tag/Wrapper/Wrapper HTTP_class/NI Skyline Tag HTTP.lvclass"/>
 				<Item Name="NI Skyline Tag HTTP.lvlib" Type="Library" URL="/&lt;vilib&gt;/Skyline/Tag/HTTP/NI Skyline Tag HTTP.lvlib"/>
@@ -69,9 +63,6 @@
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
-			</Item>
-			<Item Name="niskyline_message.dll" Type="Document" URL="niskyline_message.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="niskyline_tag.dll" Type="Document" URL="niskyline_tag.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -172,12 +163,6 @@
 				<Item Name="NI Skyline Configuration.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Skyline/Configuration/Configuration_class/NI Skyline Configuration.lvclass"/>
 				<Item Name="NI Skyline Configuration.lvlib" Type="Library" URL="/&lt;vilib&gt;/Skyline/Configuration/HTTP/NI Skyline Configuration.lvlib"/>
 				<Item Name="NI Skyline JSON.lvlib" Type="Library" URL="/&lt;vilib&gt;/Skyline/JSON/NI Skyline JSON.lvlib"/>
-				<Item Name="NI Skyline Message AMQP (Async).lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Skyline/Message/AMQP/NI Skyline Message AMQP (Async).lvclass"/>
-				<Item Name="NI Skyline Message AMQP (Sync).lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Skyline/Message/AMQP/NI Skyline Message AMQP (Sync).lvclass"/>
-				<Item Name="NI Skyline Message HTTP.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Skyline/Message/HTTP Wrapper/NI Skyline Message HTTP.lvclass"/>
-				<Item Name="NI Skyline Message HTTP.lvlib" Type="Library" URL="/&lt;vilib&gt;/Skyline/Message/HTTP/NI Skyline Message HTTP.lvlib"/>
-				<Item Name="NI Skyline Message Sync.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Skyline/Message/sync/NI Skyline Message Sync.lvclass"/>
-				<Item Name="NI Skyline Message.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Skyline/Message/NI Skyline Message.lvclass"/>
 				<Item Name="NI Skyline Tag AMQP.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Skyline/Tag/Wrapper/Wrapper AMQP_class/NI Skyline Tag AMQP.lvclass"/>
 				<Item Name="NI Skyline Tag HTTP.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Skyline/Tag/Wrapper/Wrapper HTTP_class/NI Skyline Tag HTTP.lvclass"/>
 				<Item Name="NI Skyline Tag HTTP.lvlib" Type="Library" URL="/&lt;vilib&gt;/Skyline/Tag/HTTP/NI Skyline Tag HTTP.lvlib"/>
@@ -197,9 +182,6 @@
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
-			</Item>
-			<Item Name="niskyline_message.dll" Type="Document" URL="niskyline_message.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="niskyline_tag.dll" Type="Document" URL="niskyline_tag.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
