@@ -1,0 +1,5 @@
+
+monitor-test-webvi/monitor-test/.cache/
+monitor-test-webvi/monitor-test/Builds/
+*.lvindexcache
+monitor-test-webvi/monitor-test/monitor-test.lvcompile
