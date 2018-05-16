@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="8DE7AE87DD06ABBEA4171EEEF093D371" Timestamp="1D3D354493CE71D" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="5D92770FE63685ED6507E7202C6F2CE4" Timestamp="1D3ECBAE7AC6CEA" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="5.3.0.59009" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="5.2.0.0" Version="5.2.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="5.3.0.59009" FeatureSetName="Web Module: WebVI" Name="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" OldestCompatibleVersion="5.2.0.0" Version="5.2.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="5.3.0.59009" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="5.2.0.49153" Version="5.2.0.49153" />
 		<ApplicationVersionInfo Build="5.3.0.59009" Name="LabVIEW NXG" Version="2.1.0" />
 	</SourceModelFeatureSet>
@@ -30,6 +31,8 @@
 			<ComponentItemProperties AssociatedEnvoyId="51" Exported="True" Id="52" />
 			<ComponentItemProperties AssociatedEnvoyId="53" Exported="True" Id="54" />
 			<ComponentItemProperties AssociatedEnvoyId="55" Exported="True" Id="56" />
+			<ComponentItemProperties AssociatedEnvoyId="57" Exported="True" Id="58" />
+			<ComponentItemProperties AssociatedEnvoyId="59" Exported="True" Id="60" />
 		</ComponentConfiguration>
 	</ComponentDefinition>
 	<EnvoyManagerFile Id="6" xmlns="http://www.ni.com/PlatformFramework">
@@ -49,6 +52,8 @@
 				<SourceFileReference Id="51" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Update\ Remaining\ Queue\ Indicator\.gvi" StoragePath="Update Remaining Queue Indicator.gvi" />
 				<SourceFileReference Id="53" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Deque\ Message\.gvi" StoragePath="Deque Message.gvi" />
 				<SourceFileReference Id="55" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Publish\ Message\.gvi" StoragePath="Publish Message.gvi" />
+				<SourceFileReference Id="57" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="FormatGrid\.gvi" StoragePath="FormatGrid.gvi" />
+				<SourceFileReference Id="59" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Function\.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Function.gviweb" />
 			</NameScopingEnvoy>
 		</EmbeddedDefinitionReference>
 		<NameScopingEnvoy Id="9" ModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentDefinitionContentReferenceRoot" Name="subvis\.gcomp" NameTracksFileName="True">
