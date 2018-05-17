@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="311451265174C6CF6D61008194C9BDF0" Timestamp="1D3ECCB0644A27A" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="32EE644E4C08EFC3955BCCA33D31E5DC" Timestamp="1D3ED91D3F5FB5B" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="5.3.1.49938" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="5.2.0.0" Version="5.2.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="5.3.1.49938" FeatureSetName="Web Module: WebVI" Name="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" OldestCompatibleVersion="5.2.0.0" Version="5.2.0.49152" />
@@ -19,6 +19,7 @@
 			<ComponentItemProperties AssociatedEnvoyId="15" Id="16" TopLevel="True" />
 			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="19" Id="21" />
 			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="20" Id="22" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="23" Id="24" />
 		</ComponentConfiguration>
 	</ComponentDefinition>
 	<EnvoyManagerFile Id="6" xmlns="http://www.ni.com/PlatformFramework">
@@ -35,6 +36,11 @@
 				<EmbeddedDefinitionReference Id="20" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="happy\-dino\.jpg">
 					<ExternalFile>
 						<p.StoragePath>happy-dino.jpg</p.StoragePath>
+					</ExternalFile>
+				</EmbeddedDefinitionReference>
+				<EmbeddedDefinitionReference Id="23" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="thumbs\-up\.png">
+					<ExternalFile>
+						<p.StoragePath>thumbs-up.png</p.StoragePath>
 					</ExternalFile>
 				</EmbeddedDefinitionReference>
 			</NameScopingEnvoy>
