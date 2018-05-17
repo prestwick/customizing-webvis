@@ -4,6 +4,9 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">385908736</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Item Name="generate-fault.vi" Type="VI" URL="../generate-fault.vi"/>
+	<Item Name="handle-error.vi" Type="VI" URL="../handle-error.vi"/>
 	<Item Name="publish-battery-under-test.vi" Type="VI" URL="../publish-battery-under-test.vi"/>
 	<Item Name="Simulate Temperature.vi" Type="VI" URL="../Simulate Temperature.vi"/>
+	<Item Name="state.ctl" Type="VI" URL="../state.ctl"/>
 </Library>
