@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="2A2282945C3BE49AFE8DABD9D38DCEDA" Timestamp="1D3ED95AD4F67FF" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="3477486CBE889DC283B8FEAD60422D11" Timestamp="1D3F2A3BF12AE13" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="5.3.1.49938" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="5.2.0.0" Version="5.2.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="5.3.1.49938" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="5.2.0.49153" Version="5.2.0.49153" />
 		<ApplicationVersionInfo Build="5.3.1.49938" Name="LabVIEW NXG" Version="2.1.0" />
 	</SourceModelFeatureSet>
-	<DistributionDefinition BusId="0" Company="ni" ContentType="Binary" DisplayName="customizing-webvis" DistributionCategory="Infrastructure" DistributionOutputType="NiPackage" Homepage="ni" MaintainerEmail="ni" MaintainerName="ni" ModelId="0" Product="customizing webvis" TargetedProduct="LabVIEW" VendorId="0" Version="1.0.0.2" xmlns="http://www.ni.com/GComponent.xsd">
+	<DistributionDefinition BusId="0" Company="ni" ContentType="Binary" DisplayName="customizing-webvis" DistributionCategory="Infrastructure" DistributionOutputType="NiPackage" Homepage="ni" MaintainerEmail="ni" MaintainerName="ni" ModelId="0" Product="customizing webvis" TargetedProduct="LabVIEW" VendorId="0" Version="1.0.0.4" xmlns="http://www.ni.com/GComponent.xsd">
 		<DistributionBuildTarget Id="2" Target=":Web\ Server" />
 		<DistributionMemberDependencySource Id="3" MemberContentType="Application" Target=":Web\ Server:Interactive:WebApp\.gcomp" />
 	</DistributionDefinition>

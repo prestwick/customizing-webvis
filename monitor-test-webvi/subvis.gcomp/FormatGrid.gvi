@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="08FCD98715FCBEF00ACACE99FF0E2CF3" Timestamp="1D3ED8EE57CBAEA" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="B87EE384FA916D17FC98140B0C955EE7" Timestamp="1D3F2A3BF259F6C" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="5.3.1.49938" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="5.2.0.49153" Version="5.2.0.49153" />
 		<ParsableNamespace AssemblyFileVersion="5.3.1.49938" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="5.2.0.9" Version="5.2.0.49152" />
@@ -95,11 +95,11 @@
 						<PropertyItemTerminal Action="Write" DataType="String" Hotspot="0 75" Id="c4t0v" Path="Status" PathElementMemberKinds="Field" Usage="Required" />
 					</PropertyNode>
 					<Literal Bounds="95 230 40 15" DataType="String" Id="208" Label="209" xmlns="http://www.ni.com/MocCommon">
-						<p.Data>↗️</p.Data>
+						<p.Data>""</p.Data>
 						<StringBehavior TextDisplayMode="Default" />
 					</Literal>
 					<Literal Bounds="95 315 40 15" DataType="String" Id="217" Label="218" xmlns="http://www.ni.com/MocCommon">
-						<p.Data>⚠️</p.Data>
+						<p.Data>""</p.Data>
 						<StringBehavior TextDisplayMode="Default" />
 					</Literal>
 					<NodeLabel AttachedTo="208" Bounds="95 212 30 15" Id="209" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
@@ -123,7 +123,7 @@
 					<Select Bounds="155 245 40 40" Id="715" />
 					<Wire Id="717" Joints="N(208:Out)|(135,235) h(10) v(15) N(715:t)|(155,250)" xmlns="http://www.ni.com/PlatformFramework" />
 					<Literal Bounds="95 285 40 15" DataType="String" Id="718" Label="719" xmlns="http://www.ni.com/MocCommon">
-						<p.Data>↘️</p.Data>
+						<p.Data>""</p.Data>
 						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
 					</Literal>
 					<NodeLabel AttachedTo="718" Bounds="95 267 30 15" Id="719" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
@@ -142,7 +142,7 @@
 						<p.Text>y</p.Text>
 					</NodeLabel>
 					<Literal Bounds="95 370 40 15" DataType="String" Id="731" Label="732" xmlns="http://www.ni.com/MocCommon">
-						<p.Data>👌</p.Data>
+						<p.Data>""</p.Data>
 						<StringBehavior TextDisplayMode="Default" />
 					</Literal>
 					<NodeLabel AttachedTo="731" Bounds="95 352 30 15" Id="732" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
@@ -230,10 +230,10 @@
 				<ArrayBehavior ElementType="String" IndexEditorWidth="42" VisibleRows="3">
 					<p.DefaultElementValue>""</p.DefaultElementValue>
 				</ArrayBehavior>
-				<Literal Bounds="49.5 4 134 16" DataType="String" Id="141" Label="142">
+				<Literal Bounds="49 40 134 16" DataType="String" Id="141" Label="142">
 					<StringBehavior TextDisplayMode="Default" />
 				</Literal>
-				<NodeLabel AttachedTo="141" Bounds="49.5 -14 30 15" Id="142" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+				<NodeLabel AttachedTo="141" Bounds="49 22 30 15" Id="142" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
 					<p.Text>Battery</p.Text>
 				</NodeLabel>
 			</ArrayLiteral>

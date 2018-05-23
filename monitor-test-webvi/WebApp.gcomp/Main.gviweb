@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="6DBEA70DE32005AD156BF55FE26D42FC" Timestamp="1D3EEEC57F5F80F" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="D6DD3D073FF2A990DE077D70F4EAD52D" Timestamp="1D3F2A3BF176922" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="5.3.1.49938" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="5.2.0.49153" Version="5.2.0.49153" />
 		<ParsableNamespace AssemblyFileVersion="5.3.1.49938" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="5.2.0.9" Version="5.2.0.49152" />
@@ -61,9 +61,9 @@
 					<p.Text>milliseconds to wait</p.Text>
 				</NodeLabel>
 				<Wire Id="62" Joints="N(60:Out)|(80,35) N(59:time to wait)|(100,35)" xmlns="http://www.ni.com/PlatformFramework" />
-				<CaseStructure Bounds="35 60 910 305" DataType="@f294db5053a04a6ab0b223184d070343" Default="79" Id="63" Selected="80" UserSelectorBounds="373.5 0 163 17">
+				<CaseStructure Bounds="35 60 910 305" DataType="@f294db5053a04a6ab0b223184d070343" Default="79" Id="63" Selected="1182" UserSelectorBounds="374 0 163 17">
 					<CaseStructure.Case Bounds="5 5 900 295" Id="79" Pattern="&quot;initialize&quot;, Default">
-						<MethodCall Bounds="825 35 40 70" DomainName="subvis" Id="99" ResolveFailedHint="&quot;C:\\Users\\markblack\\Documents\\GitHub\\customizing-webvis\\monitor-test-webvi\\subvis.gcomp\\Initialize.gvi&quot;" Target="subvis:Initialize\.gvi" xmlns="http://www.ni.com/MocCommon">
+						<MethodCall Bounds="825 35 40 70" DomainName="subvis" Id="99" ResolveFailedHint="&quot;C:\\Users\\Mark Black\\Documents\\GitHub\\customizing-webvis\\monitor-test-webvi\\subvis.gcomp\\Initialize.gvi&quot;" Target="subvis:Initialize\.gvi" xmlns="http://www.ni.com/MocCommon">
 							<p.MethodDeclaration>
 								<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 									<Parameter Id="L0" Desc="server url" />
@@ -84,7 +84,7 @@
 							<Terminal DataType="String[]" Direction="Input" Hotspot="0 45" Id="L4" xmlns="http://www.ni.com/PlatformFramework" />
 							<Terminal DataType="@20a612b791904cc897b529b2dba38fc0" Direction="Input" Hotspot="0 55" Id="L5" xmlns="http://www.ni.com/PlatformFramework" />
 							<Terminal DataType="Error" Direction="Input" Hotspot="0 65" Id="L6" xmlns="http://www.ni.com/PlatformFramework" />
-							<Terminal DataType="@3e0ea5719cbf47ff8d02c0d218b57465" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
+							<Terminal DataType="@8cd0ff02ff2e49f2bb618567f432bd9f" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
 							<Terminal DataType="Error" Direction="Output" Hotspot="40 65" Id="R6" xmlns="http://www.ni.com/PlatformFramework" />
 						</MethodCall>
 						<MethodCall Bounds="60 95 40 40" DomainName="NI:G Core:Error" Id="103" ResolveFailedHint="Clear Error Cluster.gvi, Package: (LabVIEW NXG G Standard Library Files, Version: 2.0.0)" Target="NI:G\ Core:Error:Clear\ Error\ Cluster\.gvi" xmlns="http://www.ni.com/MocCommon">
@@ -181,7 +181,7 @@
 							<p.Text>URL Image</p.Text>
 						</NodeLabel>
 						<Literal Bounds="105 15 168 15" DataType="String" Id="1263" Label="1264" xmlns="http://www.ni.com/MocCommon">
-							<p.Data>happy-dino.jpg</p.Data>
+							<p.Data>""</p.Data>
 							<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
 						</Literal>
 						<NodeLabel AttachedTo="1263" Bounds="105 -3 30 15" Id="1264" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
@@ -191,7 +191,7 @@
 					</CaseStructure.Case>
 					<CaseStructure.Case Bounds="5 5 900 295" Id="80" Pattern="&quot;read-tags&quot;">
 						<Wire Id="133" Joints="N(90:80)|(4,55) N(136:L0)|(125,55)" xmlns="http://www.ni.com/PlatformFramework" />
-						<MethodCall Bounds="125 50 40 70" DomainName="subvis" Id="136" ResolveFailedHint="&quot;C:\\Users\\markblack\\Documents\\GitHub\\customizing-webvis\\monitor-test-webvi\\subvis.gcomp\\Read Example Tags.gvi&quot;" Target="subvis:Read\ Example\ Tags\.gvi" xmlns="http://www.ni.com/MocCommon">
+						<MethodCall Bounds="125 50 40 70" DomainName="subvis" Id="136" ResolveFailedHint="&quot;C:\\Users\\Mark Black\\Documents\\GitHub\\customizing-webvis\\monitor-test-webvi\\subvis.gcomp\\Read Example Tags.gvi&quot;" Target="subvis:Read\ Example\ Tags\.gvi" xmlns="http://www.ni.com/MocCommon">
 							<p.MethodDeclaration>
 								<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 									<Parameter Id="L0" Desc="SystemLink Connection" />
@@ -202,15 +202,15 @@
 									<Parameter Id="R6" Desc="error out" />
 								</MethodDeclaration>
 							</p.MethodDeclaration>
-							<Terminal DataType="@3e0ea5719cbf47ff8d02c0d218b57465" Direction="Input" Id="L0" xmlns="http://www.ni.com/PlatformFramework" />
+							<Terminal DataType="@8cd0ff02ff2e49f2bb618567f432bd9f" Direction="Input" Id="L0" xmlns="http://www.ni.com/PlatformFramework" />
 							<Terminal DataType="Error" Direction="Input" Hotspot="0 65" Id="L6" xmlns="http://www.ni.com/PlatformFramework" />
-							<Terminal DataType="@3e0ea5719cbf47ff8d02c0d218b57465" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
+							<Terminal DataType="@8cd0ff02ff2e49f2bb618567f432bd9f" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
 							<Terminal DataType="Double[]" Direction="Output" Hotspot="40 25" Id="R2" xmlns="http://www.ni.com/PlatformFramework" />
 							<Terminal DataType="Double[]" Direction="Output" Hotspot="40 35" Id="R3" xmlns="http://www.ni.com/PlatformFramework" />
 							<Terminal DataType="Error" Direction="Output" Hotspot="40 65" Id="R6" xmlns="http://www.ni.com/PlatformFramework" />
 						</MethodCall>
 						<Wire Id="137" Joints="N(87:80)|(4,100) h(106) v(15) N(136:L6)|(125,115)" xmlns="http://www.ni.com/PlatformFramework" />
-						<MethodCall Bounds="215 70 40 40" DomainName="subvis" Id="493" ResolveFailedHint="&quot;C:\\Users\\markblack\\Documents\\GitHub\\customizing-webvis\\monitor-test-webvi\\subvis.gcomp\\FormatGrid.gvi&quot;" Target="subvis:FormatGrid\.gvi" xmlns="http://www.ni.com/MocCommon">
+						<MethodCall Bounds="215 70 40 40" DomainName="subvis" Id="493" ResolveFailedHint="&quot;C:\\Users\\Mark Black\\Documents\\GitHub\\customizing-webvis\\monitor-test-webvi\\subvis.gcomp\\FormatGrid.gvi&quot;" Target="subvis:FormatGrid\.gvi" xmlns="http://www.ni.com/MocCommon">
 							<p.MethodDeclaration>
 								<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 									<Parameter Id="L0" Desc="ramp" />
@@ -275,29 +275,29 @@
 						<DataAccessor Bounds="445 140 40 15" DataItem="393" Id="1266" Label="1267" xmlns="http://www.ni.com/MocCommon">
 							<Terminal DataType="String" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 						</DataAccessor>
-						<Literal Bounds="240 165 110 15" DataType="String" Id="1268" Label="1269" xmlns="http://www.ni.com/MocCommon">
-							<p.Data>happy-dino.jpg</p.Data>
+						<Literal Bounds="310 165 40 15" DataType="String" Id="1268" Label="1269" xmlns="http://www.ni.com/MocCommon">
+							<p.Data>""</p.Data>
 							<StringBehavior TextDisplayMode="Default" />
 						</Literal>
 						<NodeLabel AttachedTo="1266" Bounds="490 140 62 14" Id="1267" xmlns="http://www.ni.com/PlatformFramework">
 							<p.Text>URL Image</p.Text>
 						</NodeLabel>
-						<NodeLabel AttachedTo="1268" Bounds="240 183 30 15" Id="1269" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+						<NodeLabel AttachedTo="1268" Bounds="310 183 30 15" Id="1269" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
 							<p.Text>URL Image</p.Text>
 						</NodeLabel>
 						<Wire Id="1701" Joints="N(1240:s? t:f)|(415,145) N(1266:Value)|(448,145)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="1704" Joints="N(1268:Out)|(350,170) h(10) v(-10) N(1240:f)|(375,160)" xmlns="http://www.ni.com/PlatformFramework" />
-						<Literal Bounds="240 110 110 15" DataType="String" Id="1707" Label="1708" xmlns="http://www.ni.com/MocCommon">
-							<p.Data>angry-dino.png</p.Data>
+						<Literal Bounds="310 110 40 15" DataType="String" Id="1707" Label="1708" xmlns="http://www.ni.com/MocCommon">
+							<p.Data>""</p.Data>
 							<StringBehavior TextDisplayMode="Default" />
 						</Literal>
-						<NodeLabel AttachedTo="1707" Bounds="240 128 30 15" Id="1708" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+						<NodeLabel AttachedTo="1707" Bounds="310 128 30 15" Id="1708" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
 							<p.Text>true value</p.Text>
 						</NodeLabel>
 						<Wire Id="1709" Joints="N(1707:Out)|(350,115) h(10) v(15) N(1240:t)|(375,130)" xmlns="http://www.ni.com/PlatformFramework" />
 					</CaseStructure.Case>
 					<CaseStructure.Case Bounds="5 5 900 295" Id="1182" Pattern="&quot;generate-fault&quot;">
-						<MethodCall Bounds="215 65 40 40" DomainName="subvis" Id="1202" ResolveFailedHint="&quot;C:\\Users\\markblack\\Documents\\GitHub\\customizing-webvis\\monitor-test-webvi\\subvis.gcomp\\Publish Message.gvi&quot;" Target="subvis:Publish\ Message\.gvi" xmlns="http://www.ni.com/MocCommon">
+						<MethodCall Bounds="215 65 40 40" DomainName="subvis" Id="1202" ResolveFailedHint="&quot;C:\\Users\\Mark Black\\Documents\\GitHub\\customizing-webvis\\monitor-test-webvi\\subvis.gcomp\\Publish Message.gvi&quot;" Target="subvis:Publish\ Message\.gvi" xmlns="http://www.ni.com/MocCommon">
 							<p.MethodDeclaration>
 								<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 									<Parameter Id="L0" Desc="SystemLink Connection" />
@@ -307,10 +307,10 @@
 									<Parameter Id="R3" Desc="error out" />
 								</MethodDeclaration>
 							</p.MethodDeclaration>
-							<Terminal DataType="@3e0ea5719cbf47ff8d02c0d218b57465" Direction="Input" Id="L0" xmlns="http://www.ni.com/PlatformFramework" />
+							<Terminal DataType="@8cd0ff02ff2e49f2bb618567f432bd9f" Direction="Input" Id="L0" xmlns="http://www.ni.com/PlatformFramework" />
 							<Terminal DataType="String" Direction="Input" Hotspot="0 25" Id="L2" xmlns="http://www.ni.com/PlatformFramework" />
 							<Terminal DataType="Error" Direction="Input" Hotspot="0 35" Id="L3" xmlns="http://www.ni.com/PlatformFramework" />
-							<Terminal DataType="@3e0ea5719cbf47ff8d02c0d218b57465" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
+							<Terminal DataType="@8cd0ff02ff2e49f2bb618567f432bd9f" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
 							<Terminal DataType="Error" Direction="Output" Hotspot="40 35" Id="R3" xmlns="http://www.ni.com/PlatformFramework" />
 						</MethodCall>
 						<Literal Bounds="70 85 105 15" DataType="String" Id="1203" Label="1205" xmlns="http://www.ni.com/MocCommon">
@@ -339,7 +339,7 @@
 						<Wire Id="1212" Joints="N(90:1182)|(4,55) h(181) v(15) N(1202:L0)|(215,70)" xmlns="http://www.ni.com/PlatformFramework" />
 					</CaseStructure.Case>
 					<CaseStructure.Case Bounds="5 5 900 295" Id="1183" Pattern="&quot;clear-fault&quot;">
-						<MethodCall Bounds="215 65 40 40" DomainName="subvis" Id="1188" ResolveFailedHint="&quot;C:\\Users\\markblack\\Documents\\GitHub\\customizing-webvis\\monitor-test-webvi\\subvis.gcomp\\Publish Message.gvi&quot;" Target="subvis:Publish\ Message\.gvi" xmlns="http://www.ni.com/MocCommon">
+						<MethodCall Bounds="215 65 40 40" DomainName="subvis" Id="1188" ResolveFailedHint="&quot;C:\\Users\\Mark Black\\Documents\\GitHub\\customizing-webvis\\monitor-test-webvi\\subvis.gcomp\\Publish Message.gvi&quot;" Target="subvis:Publish\ Message\.gvi" xmlns="http://www.ni.com/MocCommon">
 							<p.MethodDeclaration>
 								<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 									<Parameter Id="L0" Desc="SystemLink Connection" />
@@ -349,10 +349,10 @@
 									<Parameter Id="R3" Desc="error out" />
 								</MethodDeclaration>
 							</p.MethodDeclaration>
-							<Terminal DataType="@3e0ea5719cbf47ff8d02c0d218b57465" Direction="Input" Id="L0" xmlns="http://www.ni.com/PlatformFramework" />
+							<Terminal DataType="@8cd0ff02ff2e49f2bb618567f432bd9f" Direction="Input" Id="L0" xmlns="http://www.ni.com/PlatformFramework" />
 							<Terminal DataType="String" Direction="Input" Hotspot="0 25" Id="L2" xmlns="http://www.ni.com/PlatformFramework" />
 							<Terminal DataType="Error" Direction="Input" Hotspot="0 35" Id="L3" xmlns="http://www.ni.com/PlatformFramework" />
-							<Terminal DataType="@3e0ea5719cbf47ff8d02c0d218b57465" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
+							<Terminal DataType="@8cd0ff02ff2e49f2bb618567f432bd9f" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
 							<Terminal DataType="Error" Direction="Output" Hotspot="40 35" Id="R3" xmlns="http://www.ni.com/PlatformFramework" />
 						</MethodCall>
 						<Literal Bounds="90 85 80 15" DataType="String" Id="1189" xmlns="http://www.ni.com/MocCommon">
@@ -390,7 +390,7 @@
 				<Wire Id="69" Joints="N(50:i0)|(4,110) N(85:63)|(31,110)" xmlns="http://www.ni.com/PlatformFramework" />
 				<Wire Id="70" Joints="N(72:R0)|(1060,135) h(10) v(-25) N(51:45)|(1136,110)" xmlns="http://www.ni.com/PlatformFramework" />
 				<Wire Id="71" Joints="N(88:63)|(949,165) N(72:L3)|(1020,165)" xmlns="http://www.ni.com/PlatformFramework" />
-				<MethodCall Bounds="1020 130 40 40" DomainName="subvis" Id="72" ResolveFailedHint="&quot;C:\\Users\\markblack\\Documents\\GitHub\\customizing-webvis\\monitor-test-webvi\\subvis.gcomp\\Determine Next State.gvi&quot;" Target="subvis:Determine\ Next\ State\.gvi" xmlns="http://www.ni.com/MocCommon">
+				<MethodCall Bounds="1020 130 40 40" DomainName="subvis" Id="72" ResolveFailedHint="&quot;C:\\Users\\Mark Black\\Documents\\GitHub\\customizing-webvis\\monitor-test-webvi\\subvis.gcomp\\Determine Next State.gvi&quot;" Target="subvis:Determine\ Next\ State\.gvi" xmlns="http://www.ni.com/MocCommon">
 					<p.MethodDeclaration>
 						<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 							<Parameter Id="L0" Desc="state in" />
@@ -437,7 +437,7 @@
 				<p.Text>State</p.Text>
 			</NodeLabel>
 		</BlockDiagram>
-		<HtmlFrontPanel Height="[float]1000" Id="15" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Fixed" Top="[float]0" Width="[float]350" xmlns="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI">
+		<HtmlFrontPanel Height="[float]1000" Id="15" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Fixed" Top="[float]0" Width="[float]1024" xmlns="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI">
 			<HtmlUrlImage Alternate="[string]" BaseName="[string]UrlImage" Height="[float]280" Id="395" Label="[UIModel]396" Left="[float]4" MinHeight="[float]24" MinWidth="[float]24" Source="{DataItemBinding Id=393}" Stretch="[SMStretch]Uniform" TabIndex="[int]0" Top="[float]4" Width="[float]344" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 			<HtmlLabel Height="[float]16" Id="396" LabelOwner="[UIModel]395" Left="[float]4" Text="[string]URL Image" Top="[float]-16" Visible="[bool]False" Width="[float]64" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 			<HtmlButton BaseName="[string]Button" Content="[string]Clear Fault" Height="[float]40" Id="403" Label="[UIModel]404" Left="[float]116" MinHeight="[float]13" MinWidth="[float]13" TabIndex="[int]1" Top="[float]564" Value="{DataItemBinding Id=405}" Width="[float]120" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
@@ -507,10 +507,10 @@
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="3e0ea5719cbf47ff8d02c0d218b57465">
+		<p.TypeReference TypeId="8cd0ff02ff2e49f2bb618567f432bd9f">
 			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
 				<Members>
-					<Field FieldAccessPolicy="ReadWrite" Name="Tags" DataType="@f6523b177ede42b2bf3fccb8a350cb9f" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Tags" DataType="@21ef948877ff4e33ad7562056ea49814" />
 					<Field FieldAccessPolicy="ReadWrite" Name="Message Topic" DataType="String" />
 					<Field FieldAccessPolicy="ReadWrite" Name="Message Configuration" DataType="@ecf6c35c36a64cfda4cf0a2136f655d6" />
 				</Members>
@@ -525,8 +525,8 @@
 		<p.TypeReference TypeId="c82e107eafcb41959c4f0b7c488461ef">
 			<Typedef TypedefName="AuthPicker.gtype" UnderlyingType="@754c9bdac16e4cf88c75a1054601e16d" />
 		</p.TypeReference>
-		<p.TypeReference TypeId="f6523b177ede42b2bf3fccb8a350cb9f">
-			<VariableArray DereferenceType="@8555f81dccca4c539bc6f2518fd1b5ac" />
+		<p.TypeReference TypeId="21ef948877ff4e33ad7562056ea49814">
+			<VariableArray DereferenceType="@a34642cb28ca4406abce328f9d9a18fb" />
 		</p.TypeReference>
 		<p.TypeReference TypeId="ecf6c35c36a64cfda4cf0a2136f655d6">
 			<Attributed AttributedType="@3dc223397d5840ff89215ac7597ab6b4">
@@ -570,8 +570,8 @@
 				<DataType>UInt16</DataType>
 			</Enumeration>
 		</p.TypeReference>
-		<p.TypeReference TypeId="8555f81dccca4c539bc6f2518fd1b5ac">
-			<Attributed AttributedType="@9d6f2efc6e3a47258241a632efae8d7a">
+		<p.TypeReference TypeId="a34642cb28ca4406abce328f9d9a18fb">
+			<Attributed AttributedType="@bcc08133e472463ca6dad06765ea3a0f">
 				<AttributeValues>
 					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]NI:Skyline:TagHTTP" />
 				</AttributeValues>
@@ -580,8 +580,8 @@
 		<p.TypeReference TypeId="3dc223397d5840ff89215ac7597ab6b4">
 			<Typedef TypedefName="Message Session.gtype" UnderlyingType="@1571d6dd591a48f68af4948282f1f646" />
 		</p.TypeReference>
-		<p.TypeReference TypeId="9d6f2efc6e3a47258241a632efae8d7a">
-			<Typedef TypedefName="Tag.gtype" UnderlyingType="@37e6d80cab7a4327938682f74cbce2ac" />
+		<p.TypeReference TypeId="bcc08133e472463ca6dad06765ea3a0f">
+			<Typedef TypedefName="Tag.gtype" UnderlyingType="@60988e84af82461fb6fe16e68279ba10" />
 		</p.TypeReference>
 		<p.TypeReference TypeId="1571d6dd591a48f68af4948282f1f646">
 			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
@@ -591,11 +591,11 @@
 				</Members>
 			</Composite>
 		</p.TypeReference>
-		<p.TypeReference TypeId="37e6d80cab7a4327938682f74cbce2ac">
+		<p.TypeReference TypeId="60988e84af82461fb6fe16e68279ba10">
 			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
 				<Members>
 					<Field FieldAccessPolicy="ReadWrite" Name="Path" DataType="String" />
-					<Field FieldAccessPolicy="ReadWrite" Name="Datatype" DataType="@a82e0f7bd9804182ad201eed2a1b746e" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Datatype" DataType="@e0081583b0e4418fa0196aca93e203af" />
 					<Field FieldAccessPolicy="ReadWrite" Name="Configuration" DataType="@1e775b1dd2454d118e738bea1c089eb8" />
 				</Members>
 			</Composite>
@@ -607,8 +607,8 @@
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="a82e0f7bd9804182ad201eed2a1b746e">
-			<Attributed AttributedType="@5c288e84e6b049328fd212ce30bf57b2">
+		<p.TypeReference TypeId="e0081583b0e4418fa0196aca93e203af">
+			<Attributed AttributedType="@22f108b5723a4b8680a715e4d5d8f347">
 				<AttributeValues>
 					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]NI:Skyline:TagHTTP" />
 				</AttributeValues>
@@ -617,8 +617,8 @@
 		<p.TypeReference TypeId="742403564834439e85e161a165daf54f">
 			<Typedef TypedefName="Configuration.gtype" UnderlyingType="@fd0dd1df8c864d15b15236c1578798ed" />
 		</p.TypeReference>
-		<p.TypeReference TypeId="5c288e84e6b049328fd212ce30bf57b2">
-			<Typedef TypedefName="DataType.gtype" UnderlyingType="@9b44a255eb5c48edaab8b4bcfea70726" />
+		<p.TypeReference TypeId="22f108b5723a4b8680a715e4d5d8f347">
+			<Typedef TypedefName="DataType.gtype" UnderlyingType="@f7d659c3916f4a7e9d436e83cc43c4eb" />
 		</p.TypeReference>
 		<p.TypeReference TypeId="fd0dd1df8c864d15b15236c1578798ed">
 			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
@@ -628,12 +628,15 @@
 				</Members>
 			</Composite>
 		</p.TypeReference>
-		<p.TypeReference TypeId="9b44a255eb5c48edaab8b4bcfea70726">
+		<p.TypeReference TypeId="f7d659c3916f4a7e9d436e83cc43c4eb">
 			<Enumeration>
 				<Members>
 					<EnumerationMember Value="0" Name="Double" />
-					<EnumerationMember Value="1" Name="Integer" />
+					<EnumerationMember Value="1" Name="I32" />
 					<EnumerationMember Value="2" Name="String" />
+					<EnumerationMember Value="3" Name="Boolean" />
+					<EnumerationMember Value="4" Name="U64" />
+					<EnumerationMember Value="5" Name="Timestamp" />
 				</Members>
 				<DataType>UInt32</DataType>
 			</Enumeration>
